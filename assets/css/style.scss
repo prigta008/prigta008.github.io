@@ -1,5 +1,5 @@
 /*
-@File: Elkevent Template Styles
+@File: code Template Styles
 
 * This file contains the styling for the actual tepmlate, this
 is the file you need to edit to change the look of the
@@ -425,7 +425,7 @@ Preloader CSS
 /*================================================
 Navbar CSS
 =================================================*/
-.elkevent-mobile-nav {
+.code-mobile-nav {
     display: none;
 
     &.mean-container {
@@ -442,7 +442,7 @@ Navbar CSS
         }
     }
 }
-.elkevent-nav {
+.code-nav {
     background: transparent;
     position: absolute;
     top: 0;
@@ -1593,7 +1593,7 @@ Speakers CSS
     }
 }
 /*Speakers-Style-Two*/
-.elkevent-single-speakers {
+.code-single-speakers {
     overflow: hidden;
     position: relative;
 
@@ -4646,7 +4646,7 @@ Back To Top CSS
             right: 50px;
         };
     }
-    .elkevent-nav {
+    .code-nav {
         .navbar {
             background-color: $white-color;
             padding: {
@@ -4764,7 +4764,7 @@ Back To Top CSS
 }
 
 .navbar-area-with-bottom-color {
-    .elkevent-nav {
+    .code-nav {
         .navbar {
             .navbar-nav {
                 .nav-item {

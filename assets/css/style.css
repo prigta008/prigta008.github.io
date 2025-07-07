@@ -1,5 +1,5 @@
 /*
-@File: Elkevent Template Styles
+@File: code Template Styles
 
 * This file contains the styling for the actual tepmlate, this
 is the file you need to edit to change the look of the
@@ -479,15 +479,15 @@ Preloader CSS
 /*================================================
 Navbar CSS
 =================================================*/
-.elkevent-mobile-nav {
+.code-mobile-nav {
   display: none;
 }
 
-.elkevent-mobile-nav.mean-container .mean-nav ul li a.active {
+.code-mobile-nav.mean-container .mean-nav ul li a.active {
   color: #FF2D55;
 }
 
-.elkevent-nav {
+.code-nav {
   background: transparent;
   position: absolute;
   top: 0;
@@ -498,19 +498,19 @@ Navbar CSS
   height: auto;
 }
 
-.elkevent-nav nav ul {
+.code-nav nav ul {
   padding: 0;
   margin: 0;
   list-style-type: none;
 }
 
-.elkevent-nav nav .navbar-nav .nav-item {
+.code-nav nav .navbar-nav .nav-item {
   position: relative;
   padding: 15px 0;
   font-family: "Oswald", sans-serif;
 }
 
-.elkevent-nav nav .navbar-nav .nav-item a {
+.code-nav nav .navbar-nav .nav-item a {
   font-weight: 500;
   font-size: 16px;
   text-transform: uppercase;
@@ -525,15 +525,15 @@ Navbar CSS
   margin-right: 13px;
 }
 
-.elkevent-nav nav .navbar-nav .nav-item a:hover, .elkevent-nav nav .navbar-nav .nav-item a:focus, .elkevent-nav nav .navbar-nav .nav-item a.active {
+.code-nav nav .navbar-nav .nav-item a:hover, .code-nav nav .navbar-nav .nav-item a:focus, .code-nav nav .navbar-nav .nav-item a.active {
   color: #FF2D55;
 }
 
-.elkevent-nav nav .navbar-nav .nav-item:hover a {
+.code-nav nav .navbar-nav .nav-item:hover a {
   color: #FF2D55;
 }
 
-.elkevent-nav nav .navbar-nav .nav-item .dropdown-menu {
+.code-nav nav .navbar-nav .nav-item .dropdown-menu {
   -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
           box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
   background: #fff;
@@ -553,12 +553,12 @@ Navbar CSS
   transition: all 0.3s ease-in-out;
 }
 
-.elkevent-nav nav .navbar-nav .nav-item .dropdown-menu li {
+.code-nav nav .navbar-nav .nav-item .dropdown-menu li {
   position: relative;
   padding: 0;
 }
 
-.elkevent-nav nav .navbar-nav .nav-item .dropdown-menu li a {
+.code-nav nav .navbar-nav .nav-item .dropdown-menu li a {
   font-size: 15px;
   font-weight: 500;
   text-transform: capitalize;
@@ -568,11 +568,11 @@ Navbar CSS
   color: #ffffff;
 }
 
-.elkevent-nav nav .navbar-nav .nav-item .dropdown-menu li a:hover, .elkevent-nav nav .navbar-nav .nav-item .dropdown-menu li a:focus, .elkevent-nav nav .navbar-nav .nav-item .dropdown-menu li a.active {
+.code-nav nav .navbar-nav .nav-item .dropdown-menu li a:hover, .code-nav nav .navbar-nav .nav-item .dropdown-menu li a:focus, .code-nav nav .navbar-nav .nav-item .dropdown-menu li a.active {
   color: #FF2D55;
 }
 
-.elkevent-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu {
+.code-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu {
   position: absolute;
   left: 220px;
   top: 0;
@@ -580,36 +580,36 @@ Navbar CSS
   visibility: hidden !important;
 }
 
-.elkevent-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a {
+.code-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a {
   color: #ffffff;
   text-transform: capitalize;
 }
 
-.elkevent-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover, .elkevent-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:focus, .elkevent-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
+.code-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover, .code-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:focus, .code-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
   color: #FF2D55;
 }
 
-.elkevent-nav nav .navbar-nav .nav-item .dropdown-menu li:hover .dropdown-menu {
+.code-nav nav .navbar-nav .nav-item .dropdown-menu li:hover .dropdown-menu {
   opacity: 1 !important;
   visibility: visible !important;
   top: -20px !important;
 }
 
-.elkevent-nav nav .navbar-nav .nav-item .dropdown-menu li:hover a {
+.code-nav nav .navbar-nav .nav-item .dropdown-menu li:hover a {
   color: #FF2D55;
 }
 
-.elkevent-nav nav .navbar-nav .nav-item:hover ul {
+.code-nav nav .navbar-nav .nav-item:hover ul {
   opacity: 1;
   visibility: visible;
   top: 100%;
 }
 
-.elkevent-nav nav .others-option {
+.code-nav nav .others-option {
   margin-left: 13px;
 }
 
-.elkevent-nav.is-sticky {
+.code-nav.is-sticky {
   position: fixed;
   top: 0;
   left: 0;
@@ -1786,12 +1786,12 @@ Speakers CSS
 }
 
 /*Speakers-Style-Two*/
-.elkevent-single-speakers {
+.code-single-speakers {
   overflow: hidden;
   position: relative;
 }
 
-.elkevent-single-speakers .speakers-content {
+.code-single-speakers .speakers-content {
   position: absolute;
   bottom: -25px;
   left: 0;
@@ -1805,20 +1805,20 @@ Speakers CSS
   transition: 0.5s;
 }
 
-.elkevent-single-speakers .speakers-content h3 {
+.code-single-speakers .speakers-content h3 {
   font-size: 24px;
   margin-bottom: 0;
 }
 
-.elkevent-single-speakers .speakers-content h3 a {
+.code-single-speakers .speakers-content h3 a {
   color: #0d1028;
 }
 
-.elkevent-single-speakers .speakers-content h3 a:hover, .elkevent-single-speakers .speakers-content h3 a:focus {
+.code-single-speakers .speakers-content h3 a:hover, .code-single-speakers .speakers-content h3 a:focus {
   color: #FF2D55;
 }
 
-.elkevent-single-speakers .speakers-content span {
+.code-single-speakers .speakers-content span {
   display: block;
   margin-top: 8px;
   color: #FF2D55;
@@ -1827,7 +1827,7 @@ Speakers CSS
   transition: 0.5s;
 }
 
-.elkevent-single-speakers ul {
+.code-single-speakers ul {
   padding: 15px 20px 10px;
   margin: 0 0 0;
   opacity: 0;
@@ -1841,12 +1841,12 @@ Speakers CSS
   background-color: #ffffff;
 }
 
-.elkevent-single-speakers ul li {
+.code-single-speakers ul li {
   display: block;
   margin-bottom: 5px;
 }
 
-.elkevent-single-speakers ul li a {
+.code-single-speakers ul li a {
   width: 40px;
   height: 40px;
   line-height: 40px;
@@ -1856,46 +1856,46 @@ Speakers CSS
   border-radius: 50%;
 }
 
-.elkevent-single-speakers ul li a.facebook {
+.code-single-speakers ul li a.facebook {
   background-color: #4267b2;
 }
 
-.elkevent-single-speakers ul li a.twitter {
+.code-single-speakers ul li a.twitter {
   background-color: #38A1F3;
 }
 
-.elkevent-single-speakers ul li a.instagram {
+.code-single-speakers ul li a.instagram {
   background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), -webkit-gradient(linear, left top, left bottom, from(#6559ca), color-stop(30%, #bc318f), color-stop(50%, #e33f5f), color-stop(70%, #f77638), to(#fec66d));
   background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
 }
 
-.elkevent-single-speakers ul li a.linkedin {
+.code-single-speakers ul li a.linkedin {
   background-color: #0077B5;
 }
 
-.elkevent-single-speakers ul li a:hover, .elkevent-single-speakers ul li a:focus {
+.code-single-speakers ul li a:hover, .code-single-speakers ul li a:focus {
   background-color: #FF2D55;
   color: #ffffff;
 }
 
-.elkevent-single-speakers img {
+.code-single-speakers img {
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-.elkevent-single-speakers:hover .speakers-content, .elkevent-single-speakers:focus .speakers-content {
+.code-single-speakers:hover .speakers-content, .code-single-speakers:focus .speakers-content {
   bottom: 0;
   opacity: 1;
   visibility: visible;
 }
 
-.elkevent-single-speakers:hover ul, .elkevent-single-speakers:focus ul {
+.code-single-speakers:hover ul, .code-single-speakers:focus ul {
   right: 0;
   opacity: 1;
   visibility: visible;
 }
 
-.elkevent-single-speakers:hover img, .elkevent-single-speakers:focus img {
+.code-single-speakers:hover img, .code-single-speakers:focus img {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
   -webkit-filter: grayscale(100%);
@@ -4928,126 +4928,126 @@ Back To Top CSS
   padding-right: 50px;
 }
 
-.navbar-area-with-white-boxed-color .elkevent-nav .navbar {
+.navbar-area-with-white-boxed-color .code-nav .navbar {
   background-color: #ffffff;
   padding-top: 0;
   padding-bottom: 0;
   padding-right: 25px;
 }
 
-.navbar-area-with-white-boxed-color .elkevent-nav .navbar .navbar-brand {
+.navbar-area-with-white-boxed-color .code-nav .navbar .navbar-brand {
   background-color: #0d1028;
   padding: 25px 20px;
 }
 
-.navbar-area-with-white-boxed-color .elkevent-nav .navbar .navbar-nav .nav-item a {
+.navbar-area-with-white-boxed-color .code-nav .navbar .navbar-nav .nav-item a {
   color: #0d1028;
 }
 
-.navbar-area-with-white-boxed-color .elkevent-nav .navbar .navbar-nav .nav-item a:hover, .navbar-area-with-white-boxed-color .elkevent-nav .navbar .navbar-nav .nav-item a:focus, .navbar-area-with-white-boxed-color .elkevent-nav .navbar .navbar-nav .nav-item a.active {
+.navbar-area-with-white-boxed-color .code-nav .navbar .navbar-nav .nav-item a:hover, .navbar-area-with-white-boxed-color .code-nav .navbar .navbar-nav .nav-item a:focus, .navbar-area-with-white-boxed-color .code-nav .navbar .navbar-nav .nav-item a.active {
   color: #FF2D55;
 }
 
-.navbar-area-with-white-boxed-color .elkevent-nav .navbar .navbar-nav .nav-item:hover a {
+.navbar-area-with-white-boxed-color .code-nav .navbar .navbar-nav .nav-item:hover a {
   color: #FF2D55;
 }
 
-.navbar-area-with-white-boxed-color .elkevent-nav .navbar .navbar-nav .nav-item .dropdown-menu li a {
+.navbar-area-with-white-boxed-color .code-nav .navbar .navbar-nav .nav-item .dropdown-menu li a {
   color: #ffffff;
 }
 
-.navbar-area-with-white-boxed-color .elkevent-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:hover, .navbar-area-with-white-boxed-color .elkevent-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:focus, .navbar-area-with-white-boxed-color .elkevent-nav .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
+.navbar-area-with-white-boxed-color .code-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:hover, .navbar-area-with-white-boxed-color .code-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:focus, .navbar-area-with-white-boxed-color .code-nav .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
   color: #FF2D55;
 }
 
-.navbar-area-with-white-boxed-color .elkevent-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a {
+.navbar-area-with-white-boxed-color .code-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a {
   color: #ffffff;
 }
 
-.navbar-area-with-white-boxed-color .elkevent-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover, .navbar-area-with-white-boxed-color .elkevent-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:focus, .navbar-area-with-white-boxed-color .elkevent-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
+.navbar-area-with-white-boxed-color .code-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover, .navbar-area-with-white-boxed-color .code-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:focus, .navbar-area-with-white-boxed-color .code-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
   color: #FF2D55;
 }
 
-.navbar-area-with-white-boxed-color .elkevent-nav .navbar .navbar-nav .nav-item .dropdown-menu li:hover a {
+.navbar-area-with-white-boxed-color .code-nav .navbar .navbar-nav .nav-item .dropdown-menu li:hover a {
   color: #FF2D55;
 }
 
-.navbar-area-with-white-boxed-color .elkevent-nav.is-sticky {
+.navbar-area-with-white-boxed-color .code-nav.is-sticky {
   padding: 15px 0;
 }
 
-.navbar-area-with-white-boxed-color .elkevent-nav.is-sticky .navbar {
+.navbar-area-with-white-boxed-color .code-nav.is-sticky .navbar {
   background-color: #0d1028;
   padding: 0;
 }
 
-.navbar-area-with-white-boxed-color .elkevent-nav.is-sticky .navbar .navbar-brand {
+.navbar-area-with-white-boxed-color .code-nav.is-sticky .navbar .navbar-brand {
   background-color: #0d1028;
   padding: 0;
 }
 
-.navbar-area-with-white-boxed-color .elkevent-nav.is-sticky .navbar .navbar-nav .nav-item a {
+.navbar-area-with-white-boxed-color .code-nav.is-sticky .navbar .navbar-nav .nav-item a {
   color: #ffffff;
 }
 
-.navbar-area-with-white-boxed-color .elkevent-nav.is-sticky .navbar .navbar-nav .nav-item a:hover, .navbar-area-with-white-boxed-color .elkevent-nav.is-sticky .navbar .navbar-nav .nav-item a:focus, .navbar-area-with-white-boxed-color .elkevent-nav.is-sticky .navbar .navbar-nav .nav-item a.active {
+.navbar-area-with-white-boxed-color .code-nav.is-sticky .navbar .navbar-nav .nav-item a:hover, .navbar-area-with-white-boxed-color .code-nav.is-sticky .navbar .navbar-nav .nav-item a:focus, .navbar-area-with-white-boxed-color .code-nav.is-sticky .navbar .navbar-nav .nav-item a.active {
   color: #FF2D55;
 }
 
-.navbar-area-with-white-boxed-color .elkevent-nav.is-sticky .navbar .navbar-nav .nav-item:hover a {
+.navbar-area-with-white-boxed-color .code-nav.is-sticky .navbar .navbar-nav .nav-item:hover a {
   color: #FF2D55;
 }
 
-.navbar-area-with-white-boxed-color .elkevent-nav.is-sticky .navbar .navbar-nav .nav-item .dropdown-menu li a {
+.navbar-area-with-white-boxed-color .code-nav.is-sticky .navbar .navbar-nav .nav-item .dropdown-menu li a {
   color: #ffffff;
 }
 
-.navbar-area-with-white-boxed-color .elkevent-nav.is-sticky .navbar .navbar-nav .nav-item .dropdown-menu li a:hover, .navbar-area-with-white-boxed-color .elkevent-nav.is-sticky .navbar .navbar-nav .nav-item .dropdown-menu li a:focus, .navbar-area-with-white-boxed-color .elkevent-nav.is-sticky .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
+.navbar-area-with-white-boxed-color .code-nav.is-sticky .navbar .navbar-nav .nav-item .dropdown-menu li a:hover, .navbar-area-with-white-boxed-color .code-nav.is-sticky .navbar .navbar-nav .nav-item .dropdown-menu li a:focus, .navbar-area-with-white-boxed-color .code-nav.is-sticky .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
   color: #FF2D55;
 }
 
-.navbar-area-with-white-boxed-color .elkevent-nav.is-sticky .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a {
+.navbar-area-with-white-boxed-color .code-nav.is-sticky .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a {
   color: #ffffff;
 }
 
-.navbar-area-with-white-boxed-color .elkevent-nav.is-sticky .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover, .navbar-area-with-white-boxed-color .elkevent-nav.is-sticky .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:focus, .navbar-area-with-white-boxed-color .elkevent-nav.is-sticky .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
+.navbar-area-with-white-boxed-color .code-nav.is-sticky .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover, .navbar-area-with-white-boxed-color .code-nav.is-sticky .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:focus, .navbar-area-with-white-boxed-color .code-nav.is-sticky .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
   color: #FF2D55;
 }
 
-.navbar-area-with-white-boxed-color .elkevent-nav.is-sticky .navbar .navbar-nav .nav-item .dropdown-menu li:hover a {
+.navbar-area-with-white-boxed-color .code-nav.is-sticky .navbar .navbar-nav .nav-item .dropdown-menu li:hover a {
   color: #FF2D55;
 }
 
-.navbar-area-with-bottom-color .elkevent-nav .navbar .navbar-nav .nav-item a:hover, .navbar-area-with-bottom-color .elkevent-nav .navbar .navbar-nav .nav-item a:focus, .navbar-area-with-bottom-color .elkevent-nav .navbar .navbar-nav .nav-item a.active {
+.navbar-area-with-bottom-color .code-nav .navbar .navbar-nav .nav-item a:hover, .navbar-area-with-bottom-color .code-nav .navbar .navbar-nav .nav-item a:focus, .navbar-area-with-bottom-color .code-nav .navbar .navbar-nav .nav-item a.active {
   color: #FF2D55;
   border-bottom: 1px solid #ffffff;
 }
 
-.navbar-area-with-bottom-color .elkevent-nav .navbar .navbar-nav .nav-item:hover a {
+.navbar-area-with-bottom-color .code-nav .navbar .navbar-nav .nav-item:hover a {
   color: #FF2D55;
   border-bottom: 1px solid #ffffff;
 }
 
-.navbar-area-with-bottom-color .elkevent-nav .navbar .navbar-nav .nav-item .dropdown-menu li a {
+.navbar-area-with-bottom-color .code-nav .navbar .navbar-nav .nav-item .dropdown-menu li a {
   border-bottom: none;
   color: #ffffff;
 }
 
-.navbar-area-with-bottom-color .elkevent-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:hover, .navbar-area-with-bottom-color .elkevent-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:focus, .navbar-area-with-bottom-color .elkevent-nav .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
+.navbar-area-with-bottom-color .code-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:hover, .navbar-area-with-bottom-color .code-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:focus, .navbar-area-with-bottom-color .code-nav .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
   color: #FF2D55;
   border-bottom: none;
 }
 
-.navbar-area-with-bottom-color .elkevent-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a {
+.navbar-area-with-bottom-color .code-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a {
   color: #ffffff;
 }
 
-.navbar-area-with-bottom-color .elkevent-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover, .navbar-area-with-bottom-color .elkevent-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:focus, .navbar-area-with-bottom-color .elkevent-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
+.navbar-area-with-bottom-color .code-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover, .navbar-area-with-bottom-color .code-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:focus, .navbar-area-with-bottom-color .code-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
   color: #FF2D55;
   border-bottom: none;
 }
 
-.navbar-area-with-bottom-color .elkevent-nav .navbar .navbar-nav .nav-item .dropdown-menu li:hover a {
+.navbar-area-with-bottom-color .code-nav .navbar .navbar-nav .nav-item .dropdown-menu li:hover a {
   color: #FF2D55;
   border-bottom: none;
 }

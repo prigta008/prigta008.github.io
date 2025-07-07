@@ -31,7 +31,7 @@
   p {
     font-size: 13px;
   }
-  .elkevent-mobile-nav.mean-container .navbar-nav {
+  .code-mobile-nav.mean-container .navbar-nav {
     overflow-y: scroll;
     max-height: 450px;
     background-color: #ffffff;
@@ -316,13 +316,13 @@
     line-height: 35px;
     font-size: 14px;
   }
-  .elkevent-single-speakers .speakers-content h3 {
+  .code-single-speakers .speakers-content h3 {
     font-size: 19px;
   }
-  .elkevent-single-speakers .speakers-content span {
+  .code-single-speakers .speakers-content span {
     font-size: 13px;
   }
-  .elkevent-single-speakers ul li a {
+  .code-single-speakers ul li a {
     width: 35px;
     height: 35px;
     line-height: 35px;
@@ -1284,14 +1284,14 @@
     top: 8px;
     margin-top: -10px;
   }
-  .elkevent-mobile-nav.mean-container .navbar-nav {
+  .code-mobile-nav.mean-container .navbar-nav {
     overflow-y: scroll;
     max-height: 450px;
     background-color: #ffffff;
     -webkit-box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
             box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
   }
-  .elkevent-mobile-nav .logo {
+  .code-mobile-nav .logo {
     left: 30px !important;
   }
   .main-banner {
@@ -1484,7 +1484,7 @@
   .single-speakers .speakers-content h3 {
     font-size: 22px;
   }
-  .elkevent-single-speakers .speakers-content h3 {
+  .code-single-speakers .speakers-content h3 {
     font-size: 22px;
   }
   .speakers-area-two {
@@ -2064,7 +2064,7 @@
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .elkevent-nav nav .navbar-nav .nav-item a {
+  .code-nav nav .navbar-nav .nav-item a {
     font-size: 15px;
   }
   .main-banner-content p {
@@ -2144,17 +2144,17 @@
   .single-speakers:hover .speakers-content, .single-speakers:focus .speakers-content {
     bottom: 12px;
   }
-  .elkevent-single-speakers .speakers-content {
+  .code-single-speakers .speakers-content {
     padding: 15px 10px;
   }
-  .elkevent-single-speakers .speakers-content h3 {
+  .code-single-speakers .speakers-content h3 {
     font-size: 22px;
   }
-  .elkevent-single-speakers .speakers-content span {
+  .code-single-speakers .speakers-content span {
     font-size: 14px;
     margin-top: 6px;
   }
-  .elkevent-single-speakers ul li a {
+  .code-single-speakers ul li a {
     width: 35px;
     height: 35px;
     line-height: 35px;
@@ -2306,23 +2306,23 @@
 }
 
 @media only screen and (max-width: 991px) {
-  .elkevent-mobile-nav {
+  .code-mobile-nav {
     display: block;
     position: relative;
   }
-  .elkevent-mobile-nav .logo {
+  .code-mobile-nav .logo {
     position: absolute;
     top: 28px;
     z-index: 999;
     left: 15px;
   }
-  .elkevent-mobile-nav .logo img {
+  .code-mobile-nav .logo img {
     width: 125px;
   }
-  .elkevent-mobile-nav nav .navbar-nav .nav-item a i {
+  .code-mobile-nav nav .navbar-nav .nav-item a i {
     display: none;
   }
-  .elkevent-nav {
+  .code-nav {
     display: none !important;
   }
 }

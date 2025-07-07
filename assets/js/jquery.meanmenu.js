@@ -3,7 +3,7 @@
     $.fn.meanmenu = function(e) {
         var n = {
             meanMenuTarget: jQuery(this),
-            meanMenuContainer: ".elkevent-mobile-nav",
+            meanMenuContainer: ".code-mobile-nav",
             meanMenuClose: "X",
             meanMenuCloseSize: "18px",
             meanMenuOpen: "<span /><span /><span />",

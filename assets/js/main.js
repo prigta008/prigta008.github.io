@@ -9,10 +9,10 @@
     // Header Sticky
     $(window).on('scroll',function() {
         if ($(this).scrollTop() > 120){  
-            $('.elkevent-nav').addClass("is-sticky");
+            $('.code-nav').addClass("is-sticky");
         }
         else{
-            $('.elkevent-nav').removeClass("is-sticky");
+            $('.code-nav').removeClass("is-sticky");
         }
     });
     

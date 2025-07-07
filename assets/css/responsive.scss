@@ -50,7 +50,7 @@ $value_six: 1650px;
     p {
         font-size: 13px;
     }
-    .elkevent-mobile-nav{
+    .code-mobile-nav{
         &.mean-container {
             .navbar-nav {
                 overflow-y: scroll;
@@ -422,7 +422,7 @@ $value_six: 1650px;
             }
         }
     }
-    .elkevent-single-speakers {
+    .code-single-speakers {
         .speakers-content {
             h3 {
                 font-size: 19px;
@@ -1776,7 +1776,7 @@ $value_six: 1650px;
             }
         }
     }
-    .elkevent-mobile-nav {
+    .code-mobile-nav {
         &.mean-container {
             .navbar-nav {
                 overflow-y: scroll;
@@ -2031,7 +2031,7 @@ $value_six: 1650px;
             }
         }
     }
-    .elkevent-single-speakers {
+    .code-single-speakers {
         .speakers-content {
             h3 {
                 font-size: 22px;
@@ -2907,7 +2907,7 @@ $value_six: 1650px;
 }
 
 @media only #{$media} and ($feature_min : $value_four) and ($feature_max : $value_five) {
-    .elkevent-nav {
+    .code-nav {
         nav {
             .navbar-nav {
                 .nav-item {
@@ -3028,7 +3028,7 @@ $value_six: 1650px;
             }
         }
     }
-    .elkevent-single-speakers {
+    .code-single-speakers {
         .speakers-content {
             padding: 15px 10px;
 
@@ -3316,7 +3316,7 @@ $value_six: 1650px;
 
 // Only For Mobile and Tab Navbar
 @media only #{$media} and ($feature_max : $value_three) {
-    .elkevent-mobile-nav {
+    .code-mobile-nav {
         display: block;
         position: relative;
 
@@ -3342,7 +3342,7 @@ $value_six: 1650px;
             }
         }
     }
-    .elkevent-nav {
+    .code-nav {
         display: none !important;
     }
 }
