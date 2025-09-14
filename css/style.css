@@ -1,5 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo+Swash+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Poiret+One&display=swap');
+
+.macondo-swash-caps-regular {
+  font-family: "Macondo Swash Caps", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Comic Neue", cursive;
+  font-weight: 400;
+  font-style: normal;
   color: #0c0c0c;
   background-color: #ffffff;
 }
