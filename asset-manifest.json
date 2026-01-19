@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.aac61910.css",
-    "main.js": "/static/js/main.f2cab20b.js",
+    "main.css": "/static/css/main.34ecaade.css",
+    "main.js": "/static/js/main.bc46498b.js",
     "static/js/453.e3d13890.chunk.js": "/static/js/453.e3d13890.chunk.js",
     "static/media/research.jpeg": "/static/media/research.3c9681bb5e4231cac10c.jpeg",
     "static/media/Profile_pic.jpg": "/static/media/Profile_pic.7a80ab10d1bbc7d5cd47.jpg",
@@ -10,13 +10,17 @@
     "static/media/org-lett-pg-pr-biju.jpg": "/static/media/org-lett-pg-pr-biju.242f82aee4d8392e68a8.jpg",
     "static/media/acie-rcd-pg-sc-gj-biju.jpg": "/static/media/acie-rcd-pg-sc-gj-biju.05438a89be52c9d76014.jpg",
     "static/media/acie-sb-dfp-pg-pr-biju.jpg": "/static/media/acie-sb-dfp-pg-pr-biju.1a74a918d3310456287b.jpg",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.aac61910.css.map": "/static/css/main.aac61910.css.map",
-    "main.f2cab20b.js.map": "/static/js/main.f2cab20b.js.map",
+    "main.34ecaade.css.map": "/static/css/main.34ecaade.css.map",
+    "main.bc46498b.js.map": "/static/js/main.bc46498b.js.map",
     "453.e3d13890.chunk.js.map": "/static/js/453.e3d13890.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aac61910.css",
-    "static/js/main.f2cab20b.js"
+    "static/css/main.34ecaade.css",
+    "static/js/main.bc46498b.js"
   ]
 }
